@@ -169,7 +169,7 @@ MonoBehaviour:
   OnStay:
     m_PersistentCalls:
       m_Calls: []
-  LevelName: MinimalOneWayLevelVertical
+  LevelName: Creditos
   DelayBeforeTransition: 0
   TriggerFade: 0
   FaderID: 0
