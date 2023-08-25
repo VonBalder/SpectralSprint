@@ -8,6 +8,8 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - RandomKey
+  - CoinCount
   layers:
   - Default
   - TransparentFX
