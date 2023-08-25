@@ -7779,10 +7779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d4fdb4d7e59a704fbae36fc31892362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mirrors: []
-  NumMirrors: 0
+  NumActivation: 5
   LevelName: SPLevel2
-  TagMirror: CoinCount
 --- !u!1001 &1336807707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9007,8 +9005,8 @@ Transform:
   - {fileID: 480875724}
   - {fileID: 1626876009}
   - {fileID: 1713960008}
-  - {fileID: 350661563}
   - {fileID: 1543767346}
+  - {fileID: 350661563}
   - {fileID: 157415165}
   - {fileID: 1899000209}
   m_Father: {fileID: 1858949006}
