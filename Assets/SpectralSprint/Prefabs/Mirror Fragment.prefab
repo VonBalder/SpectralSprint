@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3605710943790521648}
   - component: {fileID: 3605710943790521807}
   - component: {fileID: 3605710943790521804}
+  - component: {fileID: 2011788619}
   m_Layer: 0
   m_Name: Mirror Fragment
   m_TagString: CoinCount
@@ -151,3 +152,15 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
+--- !u!114 &2011788619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3605710943790521649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8407989b8a088429e72b71769f64be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

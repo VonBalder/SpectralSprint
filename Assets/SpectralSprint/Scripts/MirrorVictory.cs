@@ -5,34 +5,57 @@ using MoreMountains.Tools;
 
 public class MirrorVictory : MonoBehaviour
 {
-    [SerializeField] private GameObject[] Mirrors;
-    [SerializeField] private int NumMirrors;
+    public static int NumMirrors;
+    public int NumActivation;
     public string LevelName;
-    [SerializeField] private string TagMirror = ("CoinCount");
+
+
     private void Update()
     {
-        MirrorActivation();
-        MirrorV();
-    }
-    private void MirrorActivation()
-    {
-       Mirrors = GameObject.FindGameObjectsWithTag(TagMirror);
-    }
-    private void MirrorV()
-    {
-        NumMirrors = Mirrors.Length;
-
-        if (NumMirrors == 0 ) 
+        if (NumMirrors == NumActivation)
         {
             NextLevel();
         }
+        else
+        {
+            return;
+        }
+
     }
     private void NextLevel()
     {
         MMSceneLoadingManager.LoadScene(LevelName);
     }
-
-    //el script se preguntara cuantos espejos hay de manera constante (MirrorActivation) y se preguntara el numero exacto (MirrorV)
-    //Cuando haga eso tambien se preguntara si el numero de espejos es 0, si el numero es 0, avanza al siguiente nivel
-    //felicidades lograste la victoria espejo
 }
+
+
+//el script se preguntara cuantos espejos hay de manera constante (MirrorActivation) y se preguntara el numero exacto (MirrorV)
+//Cuando haga eso tambien se preguntara si el numero de espejos es 0, si el numero es 0, avanza al siguiente nivel
+//felicidades lograste la victoria espejo
+
+
+/*    [SerializeField] private GameObject[] Mirrors;
+[SerializeField] private int NumMirrors;
+public string LevelName;
+[SerializeField] private string TagMirror = ("CoinCount");
+private void Update()
+{
+    MirrorActivation();
+    MirrorV();
+}
+private void MirrorActivation()
+{
+   Mirrors = GameObject.FindGameObjectsWithTag(TagMirror);
+}
+private void MirrorV()
+{
+    NumMirrors = Mirrors.Length;
+
+    if (NumMirrors == 0 ) 
+    {
+        NextLevel();
+    }
+}
+
+ */
+
