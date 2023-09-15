@@ -70,7 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 <<<<<<< HEAD
+<<<<<<< HEAD
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 =======
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 >>>>>>> ae375aa (First commit empty project and .gitignore)
+=======
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+>>>>>>> 6409d685336feb0e4f5a2b29cae211406d62847c
