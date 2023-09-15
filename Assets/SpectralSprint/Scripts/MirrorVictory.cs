@@ -24,6 +24,7 @@ public class MirrorVictory : MonoBehaviour
     }
     private void NextLevel()
     {
+        NumMirrors=0;
         MMSceneLoadingManager.LoadScene(LevelName);
     }
 }
