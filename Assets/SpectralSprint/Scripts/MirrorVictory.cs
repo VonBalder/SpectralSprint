@@ -6,8 +6,8 @@ using MoreMountains.Tools;
 public class MirrorVictory : MonoBehaviour
 {
     public static int NumMirrors;
-    public int NumActivation;
-    public string LevelName;
+    [SerializeField] int NumActivation;
+    [SerializeField] string LevelName;
 
 
     private void Update()
