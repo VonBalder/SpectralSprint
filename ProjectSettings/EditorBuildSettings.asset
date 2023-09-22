@@ -228,7 +228,7 @@ EditorBuildSettings:
     path: Assets/SpectralSprint/Scenes/Home.unity
     guid: e91798961c8831b4ab773a318269880f
   - enabled: 1
-    path: Assets/SpectralSprint/Scenes/SPLevel1.unity
+    path: Assets/SpectralSprint/Scenes/SPLevel1Old.unity
     guid: 2e206cb9261f4d24a8bc1dda4b86bcef
   - enabled: 1
     path: Assets/SpectralSprint/Scenes/Creditos.unity
