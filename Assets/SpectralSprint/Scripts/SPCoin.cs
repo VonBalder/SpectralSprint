@@ -18,12 +18,13 @@ public class SPCoin : Monobehaviour , MMEventListener<PickableItemEvent>
 
     public virtual void OnMMEvent(PickableItemEvent item)
     {
-        contador_monedas ++
+        contador_monedas++
 
-        if(contador_monedas == 3)
+        if (contador_monedas == 3)
         {
             GameManager.Instance.GainLives(1);
-            contador_monedas = 0; //corregir bug donde se ejecutan tantas veces como exista el mismo objeto
+            contador_monedas = 0; //corregir bug donde se ejecutan tantas veces como exista el mismo objeto, lo que hizo el profesor fue ponerlo en la UI mas no dentro del mismo evento
+            // donde item debera ser un tag que diferencie a las monedas del resto 
         }
 
     }
