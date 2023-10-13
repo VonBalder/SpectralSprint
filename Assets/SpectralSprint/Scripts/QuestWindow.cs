@@ -19,6 +19,7 @@ public class QuestWindow : MonoBehaviour
     {
         StartCoroutine(CloseWindow(0));
     }
+
     IEnumerator OpenWindow(int sec)
     {
         yield return new WaitForSecondsRealtime(sec);
