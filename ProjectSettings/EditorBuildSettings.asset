@@ -245,4 +245,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SpectralSprint/Scenes/SPGameOver.unity
     guid: 86930782883436144b94852c5cae15a8
+  - enabled: 1
+    path: Assets/SpectralSprint/Scenes/LevelDifficulty.unity
+    guid: c1fceba9ea7f40c41ae109156f8d6192
   m_configObjects: {}
