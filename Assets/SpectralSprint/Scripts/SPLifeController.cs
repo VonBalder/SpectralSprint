@@ -67,7 +67,6 @@ public class SPLifeController : MonoBehaviour
     /// </summary>
     protected virtual void UpdateHearts()
     {
-        Debug.Log("UpdateHeart");
         Health = GameManager.Instance.CurrentLives;
         for (int i = 0; i < MaxHearts; i++)
         {

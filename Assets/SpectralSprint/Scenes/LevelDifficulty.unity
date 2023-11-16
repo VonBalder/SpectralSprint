@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 295544723}
   - component: {fileID: 295544722}
   m_Layer: 5
-  m_Name: Play
+  m_Name: Facil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a1ead17b3f7799a468afc849b47dec8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad9bd2dfc9d5e794dbfce37e8f8e6a45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1783e53707924024b9afb6e17c6e5913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: SPInstructions
+  LevelName: SPLevel1Normal
   Fade: 1
   Save: 1
 --- !u!1001 &920017285
@@ -671,6 +671,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3756822506808530345, guid: beae8658d50a6134e8065c26ec4abe54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28
+      objectReference: {fileID: 0}
     - target: {fileID: 3756822506830513243, guid: beae8658d50a6134e8065c26ec4abe54,
         type: 3}
       propertyPath: m_RootOrder
@@ -932,6 +937,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61fd05bec354e24387ca09424f96b5b, type: 3}
+--- !u!1001 &1090156073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004600546, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164467361004824770, guid: 8b7225a444f23334682246f9249b11c2,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManagers
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b7225a444f23334682246f9249b11c2, type: 3}
 --- !u!1 &1158325852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1783e53707924024b9afb6e17c6e5913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: SPLevel1
+  LevelName: SPLevel1Easy
   Fade: 1
   Save: 1
 --- !u!1 &1902239611
@@ -1291,7 +1365,7 @@ GameObject:
   - component: {fileID: 1902239614}
   - component: {fileID: 1902239613}
   m_Layer: 5
-  m_Name: Instrucciones
+  m_Name: Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1340,7 +1414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b488c49c3ea335f42b4a81ada3d2267e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52fab07fd32071942b06504ba5e1fa2a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1461,10 +1535,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.00010681
       objectReference: {fileID: 0}
+    - target: {fileID: 7297757001233026660, guid: 85425d7bd60508245b31c747e82c4a31,
+        type: 3}
+      propertyPath: LevelName
+      value: SPLevel1Hard
+      objectReference: {fileID: 0}
     - target: {fileID: 7297757001454486453, guid: 85425d7bd60508245b31c747e82c4a31,
         type: 3}
       propertyPath: m_Name
-      value: Credits
+      value: Dificil
       objectReference: {fileID: 0}
     - target: {fileID: 7297757001454486474, guid: 85425d7bd60508245b31c747e82c4a31,
         type: 3}
@@ -1571,5 +1650,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7297757001454486475, guid: 85425d7bd60508245b31c747e82c4a31,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 88389619855b1b349a97248408e1b1f9,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85425d7bd60508245b31c747e82c4a31, type: 3}
